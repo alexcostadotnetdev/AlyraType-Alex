@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <link rel="stylesheet" href="./css/libs/materialize.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="col s12 m12">
+                <div class="card-content">
+                    <span class="card-title"><h1 class="center">Alura Typer</h1></span>
+                    
+                    <p class="frase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+    
+                    <ul class="informacoes center">
+                        <li>
+                            <i class="small material-icons icones">description</i>
+                            <span id="tamanho-frase">19</span> palavras
+                        </li>
+                        <li><i class="small material-icons icones">query_builder</i>
+                            <span id="tempo-digitacao">5</span> segundos
+                        </li>
+                    </ul>
+    
+                    <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
+                    <div class="botoes">
+                        <a class="btn-floating btn-large waves-effect waves-light red" id="botao-reiniciar"><i
+                                class="material-icons">restore</i>Reiniciar Jogo</a>
+                    </div>
+    
+    
+                    <ul class="center">
+                        <li><span id="contador-caracteres">0</span> caracteres</li>
+                        <li><span id="contador-palavras">0</span> palavras</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="placar">
+            <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-content">
+                    <span class="card-title centered">Placar</span>
+                    <table class="centered bordered">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>N° de Palavras</th>
+                                <th>Remover</th>
+                            </tr>
+                        </thead>
+                        <tbody>                            
+                        </tbody>
+                    </table>
+                  </div>                  
+                </div>
+              </div>
+           
+            
+        </section>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
